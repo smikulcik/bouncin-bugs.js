@@ -1,0 +1,17 @@
+{
+  "name": "bouncin-bugs.js",
+  "version": "1.0.0",
+  "description": "NodeJS implementation of Discovery Toys Bouncin Bugs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "browserify index.js -o ./build/bb.js"
+  },
+  "author": "Simon Mikulcik",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "buckets-js": "^1.98.1"
+  }
+}
